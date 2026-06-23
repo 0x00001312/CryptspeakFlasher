@@ -1,6 +1,6 @@
 # Cryptspeak Web Flasher
 
-Flashes [Cryptspeak](https://github.com/0x00001312/rsCardputer-CE) onto an M5Stack Cardputer Adv from the browser, over Web Serial. No app, no server.
+Flashes [Cryptspeak](https://github.com/0x00001312/rsCardputer-CE) onto an M5Stack Cardputer Adv from the browser, over Web Serial. No extra Software required.
 
 **Use it:** https://0x00001312.github.io/CryptspeakFlasher/
 
