@@ -6,12 +6,19 @@
 <meta name="description" content="Flashes Cryptspeak firmware onto an M5Stack Cardputer Adv over USB using the browser's Web Serial API.">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https://api.github.com https://0x00001312.github.io; img-src 'self'; base-uri 'none'; form-action 'none'">
 <title>Cryptspeak Web Flasher</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <header>
-  <h1>Cryptspeak Web Flasher</h1>
+  <svg class="logo" viewBox="0 0 540 132" width="180" height="44" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="CryptSpeak">
+    <g transform="translate(12,19) scale(0.94)">
+      <path d="M37 20 L65 20 A15 15 0 0 1 80 35 L80 55 A15 15 0 0 1 65 70 L33 70 L18 85 L22 64 L22 35 A15 15 0 0 1 37 20 Z" stroke="#8B5CF0" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round"></path>
+      <circle cx="51" cy="40" r="8" fill="#8B5CF0"></circle>
+      <path d="M47.6 45 L44 58 L58 58 L54.4 45 Z" fill="#8B5CF0"></path>
+    </g>
+    <text x="126" y="86" font-family="'Space Grotesk',sans-serif" font-size="58" font-weight="600" letter-spacing="-2"><tspan fill="#8B5CF0">Crypt</tspan><tspan fill="#E8E6E2">speak</tspan></text>
+  </svg>
   <p>Flashes <a href="https://github.com/0x00001312/rsCardputer-CE" target="_blank" rel="noopener">Cryptspeak</a> onto an M5Stack Cardputer Adv over USB.</p>
   <p id="release-info" class="status"></p>
 </header>
@@ -52,6 +59,6 @@
 
 </main>
 
-<script type="module" src="app.js"></script>
+<script type="module" src="assets/app.js"></script>
 </body>
 </html>
