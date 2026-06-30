@@ -1,8 +1,8 @@
 # Cryptspeak Web Flasher
 
-Flashes [Cryptspeak](https://github.com/0x00001312/rsCardputer-CE) onto an M5Stack Cardputer Adv from the browser, over Web Serial. No extra Software required.
+Flashes [Cryptspeak](https://github.com/cryptspeak/csCardputer) onto an M5Stack Cardputer Adv from the browser, over Web Serial. No extra Software required.
 
-**Use it:** https://0x00001312.github.io/CryptspeakFlasher/
+**Use it:** https://cryptspeak.github.io/webFlasher/
 
 ## How it works
 
@@ -12,7 +12,7 @@ Needs Chrome, Edge, or another Chromium-based browser (Web Serial isn't supporte
 
 ## License
 
-Public domain ([Unlicense](LICENSE)).
+[Apache License 2.0](LICENSE).
 
 `vendor/` holds unmodified third-party code under its own license:
 - `esptool-js` — Apache 2.0 ([espressif/esptool-js](https://github.com/espressif/esptool-js))

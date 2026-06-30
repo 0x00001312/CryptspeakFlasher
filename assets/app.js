@@ -1,8 +1,8 @@
 import { ESPLoader, Transport } from "../vendor/esptool-js.bundle.js";
 import { unzipSync } from "../vendor/fflate.browser.js";
 
-const GH_OWNER = "0x00001312";
-const GH_REPO = "rsCardputer-CE";
+const GH_OWNER = "cryptspeak";
+const GH_REPO = "csCardputer";
 const CHIP_FAMILY = "ESP32-S3";
 const FLASH_BAUD = 460800;
 
